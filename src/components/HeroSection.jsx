@@ -6,21 +6,16 @@ export const HeroSection = () => {
       id="hero"
       className="relative min-h-screen flex flex-col items-center justify-center px-4"
     >
-      <div className="container max-w-4xl mx-auto text-center z-10">
-        <div className="space-y-6">
+      <div className="container max-w-5xl mx-auto z-10 flex flex-col md:flex-row items-center md:justify-between gap-8">
+        {/* النص */}
+        <div className="text-center md:text-left space-y-6">
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
             <span className="opacity-0 animate-fade-in"> Hi, I'm</span>
-            <span className="text-primary opacity-0 animate-fade-in-delay-1">
-              {" "}
-              Yosef
-            </span>
-            <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2">
-              {" "}
-              Zaher
-            </span>
+            <span className="text-primary opacity-0 animate-fade-in-delay-1"> Yosef</span>
+            <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2"> Zaher</span>
           </h1>
 
-          <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
+          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl opacity-0 animate-fade-in-delay-3">
             I am Yosef Zaher, a passionate Software Engineer and aspiring Cloud & DevOps specialist.  
             I build intelligent and efficient systems that combine software, IoT, and cloud technologies.  
             With experience in web development, automation, and smart solutions, my goal is to create impactful  
@@ -33,8 +28,18 @@ export const HeroSection = () => {
             </a>
           </div>
         </div>
+
+        {/* الصورة */}
+        <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-primary shadow-lg">
+          <img
+            src="/projects/zaher2.jpeg" // <-- هنا حط رابط الصورة
+            alt="Yosef Zaher"
+            className="w-full h-full object-cover"
+          />
+        </div>
       </div>
 
+      {/* السهم لأسفل */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce">
         <span className="text-sm text-muted-foreground mb-2"> Scroll </span>
         <ArrowDown className="h-5 w-5 text-primary" />
