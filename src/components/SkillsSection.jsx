@@ -22,6 +22,8 @@ const skills = [
   { name: "Python", level: 80, category: "software" },
   { name: "HTML", level: 60, category: "software" },
   { name: "CSS", level: 60, category: "software" },
+  { name: "SQLite", level: 60, category: "software" },
+
 
   // Tools
   { name: "Packet Tracer", level: 60, category: "tools" },
