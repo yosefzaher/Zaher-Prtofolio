@@ -11,12 +11,12 @@ export const HeroSection = () => {
         <div className="text-center md:text-left space-y-6">
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
             <span className="opacity-0 animate-fade-in"> Hi, I'm</span>
-            <span className="text-primary opacity-0 animate-fade-in-delay-1"> Yosef</span>
-            <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2"> Zaher</span>
+            <span className="text-primary opacity-0 animate-fade-in-delay-1"> Ahmed</span>
+            <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2"> Ali</span>
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl opacity-0 animate-fade-in-delay-3">
-            I am Yosef Zaher, a passionate Software Engineer and aspiring Cloud & DevOps specialist.  
+            I am Ahmed Ali, a passionate Software Engineer and aspiring Cloud & DevOps specialist.  
             I build intelligent and efficient systems that combine software, IoT, and cloud technologies.  
             With experience in web development, automation, and smart solutions, my goal is to create impactful  
             projects that solve real-world problems.
